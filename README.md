@@ -6,7 +6,15 @@ This project implements a **sentiment classifier** for movie reviews using a **f
 
 ### Data Loading
 The IMDB dataset is stored in folders such as:
-'train/ pos/.txt neg/.txt test/ pos/.txt neg/.txt'
+
+train/
+  pos/*.txt
+  neg/*.txt
+
+test/
+  pos/*.txt
+  neg/*.txt
+
 
 
 Each `.txt` file contains a single review.
